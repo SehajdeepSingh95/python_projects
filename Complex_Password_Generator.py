@@ -19,7 +19,7 @@ for char in range(0, number_of_alphabets):
     password += random_number
 new_password=list(password)
 random.shuffle(new_password)
-final_password = ''.join(new_password)#suppose if'' =1w#r then '-'=1-w-#-r
+final_password = ''.join(new_password)
 
 print(final_password)
 
