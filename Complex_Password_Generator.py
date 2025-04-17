@@ -21,8 +21,7 @@ new_password=list(password)
 random.shuffle(new_password)
 final_password = ''.join(new_password)
 
-print(final_password)
-
+print(f"Your Password is: {final_password}")
 
 
 
