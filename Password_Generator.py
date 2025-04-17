@@ -17,4 +17,4 @@ for char in range(0, number_of_symbols):
 for char in range(0, number_of_alphabets):
     random_number = random.choice(alphabets)
     password += random_number
-print(password)
+print(f"Your Password is: {password}")
