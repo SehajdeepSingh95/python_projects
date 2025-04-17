@@ -2,7 +2,7 @@ total_numbers=int(input("Please enter how many numbers you wanna sort: "))
 NumberList  = []
 j=0
 order=input("in which order do you wanna sort, Ascending or Descending: ")
-if(order.lower()=="ascending" or order.lower() == "ascending"):
+if(order.lower()=="ascending" or order.lower() == "ascendings"):
     while (len(NumberList) <= total_numbers - 1):
         i = int(input("Please enter the number"))
         NumberList.insert(j, i)
