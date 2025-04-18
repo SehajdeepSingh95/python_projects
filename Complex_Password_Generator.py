@@ -28,10 +28,3 @@ while(True):
     if (like_it.lower() == "yes"):
         break
 
-    else:
-        continue
-
-
-
-
-
