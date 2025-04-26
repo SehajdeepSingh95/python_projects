@@ -10,7 +10,7 @@ for letters in chosen_player:
     else:
         display+="_"
 print(display)
-for i in range(10):
+for i in range(12):
     l = input("Please enter a letter from the player's name you guessed: ").lower()
     new_display=""
     for number in range(len(chosen_player)):
