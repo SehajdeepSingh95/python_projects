@@ -1,6 +1,6 @@
 import random
 print("Welcome to the hangman game!")
-player = ["Virat Kohli", "MS Dhoni", "Japreet Bumrah","Hardik Pandya"]
+player = ["Virat Kohli", "MS Dhoni", "Jaspreet Bumrah","Hardik Pandya","Adam Zampa","Arshdeep Singh"]
 chosen_player = random.choice(player).lower()
 
 display = ""
