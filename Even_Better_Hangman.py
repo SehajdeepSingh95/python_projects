@@ -1,6 +1,6 @@
 import random
-Primal_Apes = ["Baboon", "Monkey", "Gorilla", "Chimpanzee"]
-Chosen_ape = random.choice(Primal_Apes).lower()
+Mammals = ["Baboon", "Monkey", "Gorilla", "Chimpanzee"]
+Chosen_ape = random.choice(Mammals).lower()
 
 stages = [
     '''
