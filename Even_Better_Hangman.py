@@ -3,7 +3,7 @@ Mammals = ["Baboon", "Monkey", "Gorilla", "Chimpanzee"]
 Chosen_ape = random.choice(Mammals).lower()
 
 stages = [
-    '''
+    r'''
   +---+
   |   |
   O   |
