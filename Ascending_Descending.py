@@ -16,8 +16,10 @@ elif order.lower() == "descending" or order.lower() == "descendings":
             NumberList.insert(j, i)
             j = j + 1
 
-        NumberList.sort()
-        NumberList.reverse()
+         NumberList.sort(reverse=True)
+        #OR
+        # NumberList.sort()
+        # NumberList.reverse()
         numberlist=str(NumberList)
         print(numberlist)
 else:
