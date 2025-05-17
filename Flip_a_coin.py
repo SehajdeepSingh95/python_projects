@@ -1,22 +1,18 @@
 import random
-from random import randint
+from random import randint, choice
 
-print("Welcome to flip a coin game")
-choose=input("Pleas choose either heads or tails\n")
-ran=randint(1,10)
-if(ran%2==0):
-    if choose.lower()=="heads" or choose.lower()=="head":
-        print("It's heads")
-        print("Congratulations You Won!!")
-    elif choose.lower()=="tails" or choose.lower()=="tail":
-        print("Sorry you lost!!")
+print("Welcome to Flip A Coin Game!")
+    ran = randint(1, 2)
+    if ran == 1:
+        coin = "Heads"
     else:
-        print("Please enter heads or tails only")
-elif(ran%2==1):
-    if choose.lower() == "tails" or choose.lower() == "tail":
-        print("It's tails")
-        print("Congratulations You Won!!")
-    elif choose.lower() == "heads" or choose.lower() == "head":
-        print("Sorry you lost!!")
+        coin = "Tails"
+
+    print("Please choose heads or tails")
+    choice = int(input("Press '1' for Heads and '2' for Tails"))
+    if choice != ran:
+        print(f"Sorry you lost!\nIt's {coin}")
     else:
-        print("Please enter heads or tails only")
+        print(f"Congratulations you have Won!\nIt's {coin}")
+
+
