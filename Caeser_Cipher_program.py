@@ -34,7 +34,7 @@ while True:
                 cypher_text += alphabets[shifted_position]
             else:
                 cypher_text+=letters
-        print(cypher_text)
+        print(cypher_text.title())
 
 
     caeser(text.lower(), shift, direction.lower())
